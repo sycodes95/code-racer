@@ -93,9 +93,12 @@ export default function AddSnippetForm({ lang }: { lang: string }) {
             </Link>
           ),
         });
-        // this is bugged, idk why it doesn't reset the textarea
-        // TODO: fix this
-        // form.reset();
+
+        form.reset({
+          codeLanguage: undefined,
+          codeSnippet: "",
+        });
+        
       })
       .catch((err) => {
         toast({
