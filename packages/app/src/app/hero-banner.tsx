@@ -14,7 +14,7 @@ export default function HeroBanner() {
           Test your typing speed and race against other coders
         </p>
         <div
-          className="my-10  max-sm:flex max-sm:items-center max-sm:justify-center"
+          className="my-10 max-md:flex max-md:items-center max-md:justify-center"
         >
           <Link
                        
